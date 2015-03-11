@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
 	int i;
@@ -13,6 +14,7 @@ int main()
 	//......
 	//Name[15]= \0
 	printf("hello world!!\n");
+<<<<<<< HEAD
 	printf("%d\n",2+3);            // %d print an integer
 	printf("%f\n",1.2+34.234);     // %f print a float number
 	printf("%s\n",Name);
@@ -24,5 +26,10 @@ int main()
 	{
 		printf("%d : %c - %u\n",i,Name[i],Name[i]);
 	}
+=======
+	printf("%d\n",2+3);
+	printf("%f\n",1.2+34.234);
+	printf("%.16f\n",cos(2.0*M_PI/3.0)); //印到小數點16位 
+>>>>>>> complex_number
 	return 0;
  } 
