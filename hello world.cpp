@@ -9,6 +9,7 @@ int main()
 	//Name[1]=h
 	//Name[2]=a
 	//Name[3]=n
+	//Name[4]=g
 	//......
 	//Name[15]= \0
 	printf("hello world!!\n");
