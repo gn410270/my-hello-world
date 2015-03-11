@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+	int i;
 	char Name[50]="Shang-Heng Tsai";   
 	//Name is a fixed char vector
 	//Name[0],Name[1],Name[2],.......,Name[49]
@@ -16,5 +17,11 @@ int main()
 	printf("%s\n",Name);
 	printf("%c\n",Name[5]);
 	printf("%s\n",Name+6);
+	printf("%u\n",Name);     // %u print un-sign integer  有點像正整數 
+	printf("%u\n",Name+3);
+	for (i=0;i<50;i++)
+	{
+		printf("%d : %c - %u\n",i,Name[i],Name[i]);
+	}
 	return 0;
  } 
